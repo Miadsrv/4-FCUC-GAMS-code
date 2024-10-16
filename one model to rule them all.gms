@@ -38,9 +38,9 @@ scalar    Da        load damping factor                    /0.01/;
 *** SETTINGS
 ***************************************************************
 *$set modelname  ACFCUC
-$set season     summer
-$set day        d4
-$set deltaF_max 2.5
+*$set season     summer
+*$set day        d4
+*$set deltaF_max 2.5
 *$set cost       20
 
 
