@@ -2,7 +2,7 @@
 ***************************************************************
 *** INPUT
 ***************************************************************
-$include Input_Data_for_UC_Lapalma.gms
+$include Input_Data_for_UC.gms
 alias (t,tt);
 alias (i,ii,iii);
 
@@ -755,4 +755,4 @@ eq_num = %modelname%.numEqu;
 
 
 $onEpsToZero
-Execute_Unload 'Lapalma_%modelname%_%cost%_%season%_%day%.gdx'
+Execute_Unload '%modelname%_%cost%_%season%_%day%.gdx'
